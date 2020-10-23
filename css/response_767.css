@@ -1,0 +1,415 @@
+@media (max-width: 767px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main-title
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .main-title span
+    {
+        padding: 11px;
+    }
+
+    .main-title span:before
+    {
+        width: 11px;
+        height: 11px;
+    }
+
+    .main-title span:after
+    {
+        width: 11px;
+        height: 11px;
+    }
+
+
+    /*---------------
+        first section
+    ---------------*/
+    .first-section
+    {
+        height: calc(100vh - 48px);
+        min-height: 450px;
+    }
+
+    .first-section__video1
+    {
+        top: 104px;
+
+        width: 370px;
+        margin-right: -60px;
+    }
+
+    .first-section__video2
+    {
+        width: 80px;
+        margin-left: 80px;
+    }
+
+    .first-section__video3
+    {
+        bottom: 0;
+
+        width: 115px;
+        margin-right: -10px;
+    }
+
+    .first-section__video4
+    {
+        bottom: 138px;
+
+        width: 178px;
+        margin-left: -43px;
+    }
+
+
+    .first-arrow
+    {
+        width: 254px;
+        padding: 24px;
+    }
+
+    .first-arrow:before
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+    .first-arrow:after
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+
+    .first-logo
+    {
+        max-width: 254px;
+        padding: 24px;
+    }
+
+    .first-logo:before
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+    .first-logo:after
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+    .first-logoDesc
+    {
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+
+    .first-titleMob
+    {
+        font-size: 12px;
+        line-height: 20px;
+
+        width: calc(100% - 40px);
+        max-width: 460px;
+        padding: 24px;
+    }
+
+    .first-titleMob:before
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+    .first-titleMob:after
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+
+    /*---------------
+       Инфомационный блок со слайдером
+    ---------------*/
+    .section-info
+    {
+        margin-top: 22px;
+    }
+
+    .section-info .main-title
+    {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .info-slider
+    {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 14px;
+    }
+
+    .info-slider__boxImg
+    {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .info-slider__info
+    {
+        width: 100%;
+        margin-top: 18px;
+        padding: 0;
+    }
+
+    .info-slider__number
+    {
+        font-size: 84px;
+        line-height: 64px;
+
+        top: -42px;
+    }
+
+    .info-slider__name
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .info-slider__name br
+    {
+        display: none;
+    }
+
+    .info-slider__name
+    {
+        font-size: 12px;
+        line-height: 17px;
+
+        margin-top: 8px;
+    }
+
+    .info-slider__link
+    {
+        font-size: 12px;
+        line-height: 17px;
+
+        margin-top: 12px;
+        padding-right: 12px;
+    }
+
+    .info-slider__link:before
+    {
+        width: 5px;
+        height: 8px;
+        margin-top: -3px;
+    }
+
+    .info-slider__socials
+    {
+        margin-top: 12px;
+    }
+
+    .info-slider__socials a + a
+    {
+        margin-left: 18px;
+    }
+
+    .soc-ins
+    {
+        width: 18px;
+    }
+
+    .soc-vk
+    {
+        width: 25px;
+    }
+
+    .soc-fb
+    {
+        width: 8px;
+    }
+
+    .soc-tw
+    {
+        width: 20px;
+    }
+
+    .soc-ok
+    {
+        width: 11px;
+    }
+
+    .soc-yt
+    {
+        width: 18px;
+    }
+
+    .owl-carousel .owl-nav button
+    {
+        width: 34px;
+        height: 34px;
+        margin-top: -17px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev
+    {
+        left: -11px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next
+    {
+        right: -11px;
+    }
+
+    .owl-dots
+    {
+        display: none;
+    }
+
+
+    /*---------------
+       Видео
+    ---------------*/
+    .video-section
+    {
+        margin-top: 36px;
+    }
+
+    .video-section .main-title
+    {
+        max-width: 276px;
+    }
+
+    .video-section__box
+    {
+        margin-top: 16px;
+    }
+
+
+    /*---------------
+       Моменты
+    ---------------*/
+    .moments
+    {
+        margin-top: 30px;
+    }
+
+    .moment-social_mob
+    {
+        margin-top: 5px;
+    }
+
+    .moment-social_marg
+    {
+        margin: 0 0 30px;
+    }
+
+    .moment-social__box
+    {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .moment-social__title
+    {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .moment-social__title br
+    {
+        display: inline;
+    }
+
+    .moment-social__desc
+    {
+        font-size: 12px;
+        line-height: 21px;
+
+        margin-top: 10px;
+    }
+
+    .social-list
+    {
+        margin-top: 10px;
+    }
+
+    .social-list__item + .social-list__item
+    {
+        margin-left: 13px;
+    }
+
+    .social-list__link
+    {
+        width: 27px;
+        height: 27px;
+    }
+
+    .social-list__icon
+    {
+        transform: scale(.5);
+    }
+
+
+    .section-moments .main-title
+    {
+        max-width: 254px;
+    }
+
+
+    .moment
+    {
+        margin-top: 30px;
+    }
+
+    .moment-info__logo
+    {
+        display: none;
+    }
+
+    .moment-info
+    {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .moment-info__box
+    {
+        margin-top: 0;
+    }
+
+    .moment-info__title br
+    {
+        display: none;
+    }
+
+    .moment-boxGrid
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .moment-arrow
+    {
+        right: 6px;
+        bottom: 6px;
+
+        width: 22px;
+        height: 8px;
+    }
+}

@@ -1,0 +1,374 @@
+@media (max-width: 1024px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    body
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main-title
+    {
+        line-height: 30px;
+    }
+
+    .main-title span
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    /*---------------
+        first section
+    ---------------*/
+    .first-section
+    {
+        height: calc(100vh - 50px);
+        min-height: 840px;
+    }
+
+    .first-section__video1
+    {
+        top: 13.6%;
+        right: 50%;
+        left: auto;
+
+        width: 976px;
+        margin-right: -160px;
+    }
+
+    .first-section__video2
+    {
+        left: 50%;
+
+        width: 186px;
+        margin-left: 196px;
+    }
+
+    .first-section__video3
+    {
+        bottom: 12%;
+
+        width: 328px;
+        margin-right: 56px;
+    }
+
+    .first-section__video4
+    {
+        bottom: 24%;
+
+        width: 305px;
+        margin-left: 37px;
+    }
+
+    .first-section__block
+    {
+        padding: 0;
+    }
+
+    .first-arrow
+    {
+        width: 386px;
+        height: auto;
+    }
+
+    .first-arrow.anim
+    {
+        animation: animLogo .5s linear both;
+        animation-delay: 1s;
+    }
+
+    @keyframes animLogo
+    {
+        0%
+        {
+            opacity: 1;
+        }
+        100%
+        {
+            opacity: 0;
+        }
+    }
+
+    .first-logo
+    {
+        max-width: 386px;
+    }
+
+    .first-logoDesc
+    {
+        font-size: 18px;
+        line-height: 16px;
+    }
+
+    .first-title
+    {
+        display: none;
+    }
+
+    .first-titleMob
+    {
+        display: block;
+    }
+
+    .first-titleMob.anim
+    {
+        animation: animTitle 1s linear both;
+        animation-delay: 1.5s;
+    }
+
+    @keyframes animTitle
+    {
+        0%
+        {
+            opacity: 0;
+        }
+        100%
+        {
+            opacity: 1;
+        }
+    }
+
+    .scroll-next
+    {
+        display: none;
+    }
+
+
+    /*---------------
+       Инфомационный блок со слайдером
+    ---------------*/
+    .section-info
+    {
+        margin-top: 32px;
+    }
+
+    .info-slider__info
+    {
+        width: calc(57.92% - 10px);
+        padding: 50px 0 40px 56px;
+        padding-left: 56px;
+    }
+
+    .info-slider__number
+    {
+        font-size: 100px;
+        line-height: 80px;
+    }
+
+    .info-slider__name
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .info-slider__desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 6px;
+    }
+
+    .info-slider__link
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 12px;
+        padding-right: 16px;
+    }
+
+    .info-slider__link:before
+    {
+        width: 7px;
+        height: 12px;
+        margin-top: -6px;
+    }
+
+
+    .owl-dots
+    {
+        width: calc(57.92% - 66px);
+        height: 20px;
+    }
+
+    .owl-dot
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .owl-dot:before
+    {
+        width: 12px;
+        height: 12px;
+        margin: -6px 0 0 -6px;
+    }
+
+    .owl-dot svg
+    {
+        margin-top: -2px;
+    }
+
+    .owl-carousel .owl-nav button:not(.disabled):hover
+    {
+        opacity: 1;
+    }
+
+
+    /*---------------
+       Видео
+    ---------------*/
+    .video-section
+    {
+        margin-top: 70px;
+    }
+
+    .video-section .main-title
+    {
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .video-section__box
+    {
+        margin-top: 26px;
+    }
+
+    .video-section__play span
+    {
+        width: 70px;
+        height: 70px;
+        margin: -35px 0 0 -35px;
+
+        background-size: 24px auto;
+    }
+
+
+    .section-moments
+    {
+        padding: 0;
+    }
+
+    .section-moments .main-title
+    {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    /*---------------
+       Моменты
+    ---------------*/
+    .moment
+    {
+        margin-top: 10px;
+    }
+
+    .moment-info
+    {
+        display: block;
+
+        width: 190px;
+        padding-top: 50px;
+    }
+
+    .moment-info_pc
+    {
+        display: none;
+    }
+
+    .moment-info__logo img
+    {
+        max-height: 26px;
+    }
+
+    .moment-info__box
+    {
+        margin-top: 40px;
+    }
+
+    .moment-info__title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .moment-info__title span
+    {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .moment-info__desc
+    {
+        margin-top: 12px;
+    }
+
+    .moment-info__desc br
+    {
+        display: none;
+    }
+
+    .moment-boxGrid
+    {
+        width: calc(100% - 210px);
+    }
+
+    .moment-social_mob
+    {
+        display: block;
+
+        margin: 10px 0 0;
+    }
+
+    .moment-social_marg
+    {
+        margin: 0 0 45px;
+    }
+
+    .moment-social__title
+    {
+        font-size: 20px;
+    }
+
+    .moment-social__desc
+    {
+        font-size: 14px;
+    }
+
+    .moment-arrow
+    {
+        top: auto;
+        right: 10px;
+        bottom: 10px;
+        left: auto;
+
+        width: 35px;
+        height: 11px;
+
+        opacity: 1;
+
+        fill: #fff !important;
+    }
+
+    .social-list__item + .social-list__item
+    {
+        margin-left: 26px;
+    }
+
+    .social-list__link
+    {
+        width: 52px;
+        height: 52px;
+    }
+}

@@ -1,0 +1,150 @@
+@media (max-width: 1199px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main-title
+    {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .main-title span
+    {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .main-title span:before
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .main-title span:after
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*---------------
+        first section
+    ---------------*/
+    .first-section__block
+    {
+        max-width: 920px;
+    }
+
+    .first-title
+    {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .first-arrow
+    {
+        width: 420px;
+        height: 164px;
+        padding: 40px;
+    }
+
+    .first-logoDesc
+    {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .first-arrow:before
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .first-arrow:after
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .first-logo
+    {
+        position: relative;
+
+        max-width: 420px;
+        padding: 40px;
+    }
+
+    .first-logo:before
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .first-logo:after
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    /*---------------
+       Инфомационный блок со слайдером
+    ---------------*/
+    .info-slider
+    {
+        width: calc(100% - 84px);
+    }
+
+    .info-slider__boxImg
+    {
+        padding-left: 0;
+    }
+
+    .info-slider__info
+    {
+        padding-left: 40px;
+    }
+
+    .info-slider__desc
+    {
+        font-size: 16px;
+    }
+
+    .owl-carousel .owl-nav button
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev
+    {
+        left: -42px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next
+    {
+        right: -42px;
+    }
+
+
+    /*---------------
+       Моменты
+    ---------------*/
+    .moments
+    {
+        margin-top: 60px;
+    }
+
+    .moment-info__box
+    {
+        margin-top: 20px;
+    }
+}
